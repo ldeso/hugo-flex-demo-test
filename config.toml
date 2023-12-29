@@ -62,3 +62,9 @@ ignoreErrors = ["error-remote-getjson"]
 
   [params.author]
     name = "Steve Francia"
+
+[outputFormats]
+
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "feed"
